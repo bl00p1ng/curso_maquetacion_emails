@@ -3,15 +3,37 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        @media screen and (max-width: 480px) {
+            .two-columns .column,
+            .three-columns .column {
+                max-width: 100% !important;
+            }
+            .two-columns img {
+                max-width: 100% !important;
+            }
+            .three-columns img {
+                max-width: 50% !important;
+            }
+        }
+        @media screen and (min-width: 481px) and (max-width: 640px){
+            .three-columns .column {
+                max-width: 33% !important;
+            }
+            .two-columns .column {
+                max-width: 50%;
+            }
+        }
+    </style> 
 </head>
-<body>
-    <table border="1">
+<body style="margin: 0 auto;">
+    <table align="center" width="100%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;">
         <!-- HEADER -->
         <tr>
-            <td>
+            <td align="center" style="padding-top: 20px;padding-right: 0;padding: bottom 20px;padding-right: 0px;">
                 <a href="https://platzi.com" target="_blank" border="0" style="text-decoration: none;">
-                    <img src="images/logo.png" alt="Platzi - Escuela Online de formación en Tecnología">
+                    <img src="images/logo-dark.png" alt="Platzi - Escuela Online de formación en Tecnología">
                 </a>
             </td>
         </tr>
@@ -19,7 +41,7 @@
 
         <!-- FEATURED CONTENT -->
         <tr>
-            <td>
+            <td align="center" style="padding-top: 20px;padding-right: 0;padding: bottom 20px;padding-right: 0px;">
                 <a href="https://platzi.com/cursos/diseno-email/" target="_blank" border="0" style="text-decoration: none;">
                     <img src="images/curso-email-html.jpg" alt="Nuevo Curso de Diseño y Maquetación de Emails" border="0" style="width: 100%;height: auto;display: block;">
                 </a>
@@ -32,9 +54,9 @@
                 <table border="1">
                     <tr>
                         <!-- 2 COLUMNS -->
-                        <td>
+                        <td class="two-columns">
                             <!-- LEFT COLUMN -->
-                            <table border="1">
+                            <table class="column" border="1">
                                 <tr>
                                     <td>
                                         <a href="https://platzi.com/cursos/introduccion-marketing/" target="_blank" border="0" style="text-decoration: none;">
@@ -58,7 +80,7 @@
                             <!-- LEFT COLUMN -->
 
                             <!-- RIGHT COLUMN -->
-                            <table border="1">
+                            <table class="column" border="1">
                                 <tr>
                                     <td>
                                         <a href="https://platzi.com/clases/google-analytics/" target="_blank" border="0" style="text-decoration: none;">
@@ -89,9 +111,9 @@
                 <table>
                     <tr>
                         <!-- 3 COLUMNS -->
-                        <td>
+                        <td class="three-columns">
                             <!-- LEFT COLUMN -->
-                            <table border="1">
+                            <table class="column" border="1">
                                 <tr>
                                     <td>
                                         <a href="https://platzi.com/blog/herramientas-gratuitas-para-el-crecimiento-de-mi-emprendimiento/" target="_blank" border="0" style="text-decoration: none;">
@@ -115,7 +137,7 @@
                             <!-- LEFT COLUMN -->
 
                             <!-- MIDDLE COLUMN -->
-                            <table border="1">
+                            <table class="column" border="1">
                                 <tr>
                                     <td>
                                         <a href="https://platzi.com/blog/como-llegar-a-tus-clientes-y-potenciales-consumidores-a-traves-del-email-marketing/" target="_blank" border="0" style="text-decoration: none;">
@@ -139,7 +161,7 @@
                             <!-- MIDDLE COLUMN -->
 
                             <!-- RIGHT COLUMN -->
-                            <table border="1">
+                            <table class="column" border="1">
                                 <tr>
                                     <td>
                                         <a href="https://platzi.com/blog/como-evitar-errores-al-enviar-una-campana-de-email-marketing/" target="_blank" border="0" style="text-decoration: none;">
